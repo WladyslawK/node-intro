@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { count } from './utils.js'
+import * as thing from './utils/index.js'
 // const { count } = require('./utils.js')
 import fs from 'fs'
 
@@ -12,4 +12,4 @@ const newNote = {
 }
 
 console.log(newNote)
-console.log('count: ', count(2))
+console.log('count: ', thing.count(2))
