@@ -1,4 +1,7 @@
 #!/usr/bin/env node
+import { count } from './utils.js'
+// const { count } = require('./utils.js')
+import fs from 'fs'
 
 console.log('Hello world');
 
@@ -9,3 +12,4 @@ const newNote = {
 }
 
 console.log(newNote)
+console.log('count: ', count(2))
