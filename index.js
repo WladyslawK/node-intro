@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 import * as thing from './utils/index.js'
 // const { count } = require('./utils.js')
-import fs from 'fs'
+import fs from 'node:fs'
+import http from 'node:http'
+
 
 console.log('Hello world');
 
