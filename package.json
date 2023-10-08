@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/WladyslawK/node-intro/issues"
   },
-  "homepage": "https://github.com/WladyslawK/node-intro#readme"
+  "homepage": "https://github.com/WladyslawK/node-intro#readme",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
 }

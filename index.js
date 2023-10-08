@@ -3,6 +3,7 @@ import * as thing from './utils/index.js'
 // const { count } = require('./utils.js')
 import fs from 'node:fs'
 import http from 'node:http'
+import './command.js'
 
 
 console.log('Hello world');
