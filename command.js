@@ -4,11 +4,11 @@ import { hideBin } from 'yargs/helpers'
 yargs(hideBin(process.argv))
   .command('new <note>', 'create a new note', yargs => {
     return yargs.positional('note', {
-      describe: 'The content of the note you want to create',
+      description: 'The content of the note you want to create',
       type: 'string'
     })
   }, async (argv) => {
-    
+    console.log(argv.note)
   })
   .option('tags', {
     alias: 't',
